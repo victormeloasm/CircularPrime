@@ -1,6 +1,6 @@
 # Circular Primes Finder
 
-This C program finds and lists all circular primes below 10,000,000 using the Miller-Rabin primality test. Circular primes are prime numbers that remain prime when their digits are rotated.
+This C program finds and lists all circular primes below 10,000,000 using the Miller-Rabin primality test. Circular primes are prime numbers that remain prime when their digits are rotated. You can easily change the number modifying the #define NUM_MAX. 
 
 This was another exercise from Professor @Bernd-Ulmann
 
@@ -13,25 +13,25 @@ This was another exercise from Professor @Bernd-Ulmann
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/circular-primes.git
+   git clone https://github.com/victormeloasm/CircularPrime.git
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd circular-primes
+   cd CircularPrime
    ```
 
 3. Compile the program:
 
    ```bash
-   gcc circular_primes.c -o circular_primes -lm
+   gcc CircularPrime.c -o CircularPrime -lm
    ```
 
 4. Run the executable:
 
    ```bash
-   ./circular_primes
+   ./CircularPrime
    ```
 
 ## How it Works
