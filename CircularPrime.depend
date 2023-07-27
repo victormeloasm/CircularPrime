@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1690494418 source:c:\users\víctor melo\desktop\github\circularprime\circularprime\main.c
+	<stdio.h>
+	<stdbool.h>
+	<math.h>
+
