@@ -71,4 +71,28 @@ If you find any issues or have suggestions for improvements, feel free to open a
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 ```
+Sure, here's a sample description of the 1.2 version of the program with major corrections:
+
+---
+
+# Circular Primes Finder - Version 1.2
+
+This program is designed to find and count circular primes up to 10 million, with major corrections and optimizations.
+
+### Major Corrections:
+1. **Inclusion of Circular Primes**: In version 1.0, the numbers 1, 2, 3, 5, and 7 were unintentionally excluded from the list and count of circular primes. These numbers are circular primes and have been added back to the results.
+
+2. **Optimizations for Numbers Less Than 10**: The optimizations that exclude numbers ending in 5 and numbers with a sum of digits divisible by 3 are now applied only to numbers greater than 9. Numbers less than 10 are now checked normally for circular primality.
+
+### How the Program Works:
+The program implements two main functions:
+- `bool is_prime(int num)`: This function checks whether a given number is a prime number. It uses basic primality checking by eliminating even numbers and checking for factors up to the square root of the number.
+- `bool is_circular_prime(int num)`: This function checks whether a number is a circular prime. It rotates the digits of the number and verifies if all rotations are prime numbers using the `is_prime` function.
+
+### Usage:
+To use the program, simply compile and run it. It will display the list of circular primes up to 10 million, separated by commas, and ending with a period (full stop). Additionally, it will print the total count of circular primes found.
+
+We hope this version provides accurate and complete results. Happy prime hunting!
+
+--- 
 
