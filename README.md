@@ -70,10 +70,6 @@ If you find any issues or have suggestions for improvements, feel free to open a
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-```
-Sure, here's a sample description of the 1.2 version of the program with major corrections:
-
----
 
 # Circular Primes Finder - Version 1.2
 
